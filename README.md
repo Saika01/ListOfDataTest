@@ -1,40 +1,20 @@
-# vue-project
+# Мануал
 
-This template should help get you started developing with Vue 3 in Vite.
+Данные для корректной работы сайта уже сгенерированы. При необходимости их изменить нужно зайти в файл App.vue в папке src, и на 26 строке в переменной data заменить данные на нужные.
 
-## Recommended IDE Setup
+## Установка зависимостей и сборка
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Перед началом работы с репозиторием открыть терминал и ввести команды по порядку:
+1. npm i
+2. npm run build
 
-## Type Support for `.vue` Imports in TS
+Для просмотра в браузере открыть ссылку: http://localhost:3000/
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## Доступные действия
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+- Для перехода на следующую страницу нажать кнопку "Next" или кнопку с номером следующей страницы
+- Для перехода на предыдущую страницу нажать кнопку "Back" или кнопку с номером предыдущей страницы
+- Для использования фильтра по имени начать вводить имя в поле с надписью "Start tiping in name"
+- Для добавления пользователя нажать "Add feature"
+- Для стилизации ячейки пользователя нажать "Customize"
+- Для удаления пользователя нажать "Delete user"
