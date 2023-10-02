@@ -233,9 +233,9 @@ let queryUsers = computed(() => {
           :user_age=user.age
           :user_last_login=TimestampConverter(user.last_login)
         />
-        <button>Add user</button>
+        <button>Add feature</button>
         <button>Customise</button>
-        <button>Delete users</button>
+        <button>Delete user</button>
       </div>
     </div>
   </main>
