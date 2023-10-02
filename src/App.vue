@@ -5,16 +5,16 @@ import {ref, computed} from 'vue'
 function TimestampConverter(time:number) {
   let date = new Date(time*1000);
   let years = date.getFullYear();
-  let months = date.getMonth();
-  if (months.toString().length < 2) {
-    months = months.toString();
+  let firstMonthsVar = date.getMonth();
+  let months = firstMonthsVar.toString()
+  if (months.length < 2) {
     months = `0${months}`;
-  }
-  let days = date.getDate();
-  if (days.toString().length < 2) {
-    days = days.toString();
+  } 
+  let firstDaysVar = date.getDate();
+  let days = firstDaysVar.toString();
+  if (days.length < 2) {
     days = `0${days}`;
-  }
+  } 
   let hours = date.getHours();
   let minuts = date.getMinutes();
   let seconds = date.getSeconds();
